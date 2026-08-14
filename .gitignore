@@ -1,0 +1,28 @@
+# Build artifacts
+dist/
+packages/
+*.zip
+*.sha256
+SHA256SUMS
+
+# Dependencies / caches
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.playwright/
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs / temporary files
+*.log
+*.tmp
+.tmp/
+tmp/
+coverage/

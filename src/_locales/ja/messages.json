@@ -1,0 +1,323 @@
+{
+  "appName": {
+    "message": "AI Auto Continue"
+  },
+  "appDesc": {
+    "message": "Web AI のネイティブな続行操作、または会話言語に合ったプロンプトで自動的に会話を続けます。"
+  },
+  "actionTitle": {
+    "message": "AI Auto Continue"
+  },
+  "stopCommand": {
+    "message": "現在のタブで AI Auto Continue を停止"
+  },
+  "currentSite": {
+    "message": "現在のサイト"
+  },
+  "promptModeLabel": {
+    "message": "プロンプトモード"
+  },
+  "promptModeAuto": {
+    "message": "自動 — 会話言語に合わせる"
+  },
+  "promptModeCustom": {
+    "message": "カスタムプロンプト"
+  },
+  "promptLanguageLabel": {
+    "message": "自動プロンプト言語"
+  },
+  "customPromptLabel": {
+    "message": "カスタム継続プロンプト"
+  },
+  "promptSendsLabel": {
+    "message": "送信回数"
+  },
+  "delayLabel": {
+    "message": "待機時間"
+  },
+  "preferNativeLabel": {
+    "message": "ネイティブの「Continue generating」を優先"
+  },
+  "nativeContinuesLabel": {
+    "message": "回答ごとのネイティブ続行回数"
+  },
+  "startButton": {
+    "message": "開始"
+  },
+  "stopButton": {
+    "message": "停止"
+  },
+  "localOnlyText": {
+    "message": "ローカルのみで動作し、会話をアップロードしません。"
+  },
+  "moreFromPublisher": {
+    "message": "開発者のその他の製品"
+  },
+  "visitWebsite": {
+    "message": "ウェブサイトを開く"
+  },
+  "promotionDisclosure": {
+    "message": "プロモーションリンク · クリック時のみ開く · 追跡パラメータなし"
+  },
+  "languageAutoOption": {
+    "message": "自動 — 会話に合わせる"
+  },
+  "promptAutoHint": {
+    "message": "最初のプロンプト送信前に、最新の完了した AI 応答の言語を一度だけ検出します。ブラウザー言語のフォールバック："
+  },
+  "promptFixedHint": {
+    "message": "この実行で使用する言語："
+  },
+  "promptCustomHint": {
+    "message": "入力したカスタムプロンプトをそのまま使用します。"
+  },
+  "resolvedPromptPrefix": {
+    "message": "実行プロンプト"
+  },
+  "sourceCustom": {
+    "message": "カスタム"
+  },
+  "sourcePreferred": {
+    "message": "選択言語"
+  },
+  "sourceConversation": {
+    "message": "会話"
+  },
+  "sourceBrowser": {
+    "message": "ブラウザー言語"
+  },
+  "sourceFallback": {
+    "message": "英語フォールバック"
+  },
+  "sourceLegacy": {
+    "message": "旧カスタムプロンプト"
+  },
+  "unablePublisher": {
+    "message": "開発者サイトを開けません"
+  },
+  "customPromptRequired": {
+    "message": "開始する前にカスタムプロンプトを入力してください。"
+  },
+  "localProcessingDisclosure": {
+    "message": "「開始」をクリックすると、拡張機能は現在の AI 応答と入力状態をローカルで読み取り、送信のタイミングと内容を判断します。"
+  },
+  "runConfirmationAuto": {
+    "message": "「開始」をクリックすると、{site} に最大 {count} 件のメッセージを自動送信することを許可します。内容は「次のステップに進んでください。」の会話言語版です。"
+  },
+  "runConfirmationConfigured": {
+    "message": "「開始」をクリックすると、上に表示された継続プロンプトを使用して {site} に最大 {count} 件のメッセージを自動送信することを許可します。"
+  },
+  "unsupportedSiteTitle": {
+    "message": "このウェブサイトは未対応です"
+  },
+  "unsupportedSiteText": {
+    "message": "安全のため、AI Auto Continue はこのプロジェクトが明示的に対応する AI ウェブサイトでのみ動作します。"
+  },
+  "openSettings": {
+    "message": "設定を開く"
+  },
+  "messageLabel": {
+    "message": "メッセージ"
+  },
+  "editButton": {
+    "message": "編集"
+  },
+  "followUpsLabel": {
+    "message": "続行回数"
+  },
+  "followUpsCompleted": {
+    "message": "件の続行が完了"
+  },
+  "safetyLine": {
+    "message": "現在のタブのみ · 入力すると自動停止"
+  },
+  "viewSupportedSites": {
+    "message": "対応サイトを見る"
+  },
+  "readyState": {
+    "message": "準備完了"
+  },
+  "runningState": {
+    "message": "実行中"
+  },
+  "pausedState": {
+    "message": "一時停止"
+  },
+  "completedState": {
+    "message": "完了"
+  },
+  "errorState": {
+    "message": "確認が必要"
+  },
+  "unsupportedState": {
+    "message": "未対応"
+  },
+  "messageAutoSummary": {
+    "message": "自動 · 会話言語に合わせる"
+  },
+  "messageCustomSummary": {
+    "message": "カスタム · {prompt}"
+  },
+  "messageFixedSummary": {
+    "message": "自動 · {language}"
+  },
+  "startFollowUps": {
+    "message": "{count} 回の続行を開始"
+  },
+  "stopAutomation": {
+    "message": "自動続行を停止"
+  },
+  "startAgain": {
+    "message": "再開"
+  },
+  "runAgain": {
+    "message": "もう一度実行"
+  },
+  "activityWaiting": {
+    "message": "AI の回答完了を待っています…"
+  },
+  "activityGenerating": {
+    "message": "AI が回答中です…"
+  },
+  "activitySending": {
+    "message": "次のメッセージを送信中…"
+  },
+  "activityConfirming": {
+    "message": "メッセージを確認中…"
+  },
+  "activityPreparing": {
+    "message": "自動続行を準備中…"
+  },
+  "nativeContinued": {
+    "message": "切れた回答を {count} 回続行しました"
+  },
+  "popupError": {
+    "message": "現在のタブと通信できません。"
+  },
+  "settingsEyebrow": {
+    "message": "AI Auto Continue"
+  },
+  "settingsTitle": {
+    "message": "設定"
+  },
+  "settingsSubtitle": {
+    "message": "クイックポップアップで使うメッセージと安全動作を設定します。"
+  },
+  "savedAutomatically": {
+    "message": "自動保存済み"
+  },
+  "saving": {
+    "message": "保存中…"
+  },
+  "saveFailed": {
+    "message": "設定を保存できません"
+  },
+  "messageSettingsTitle": {
+    "message": "続行メッセージ"
+  },
+  "messageSettingsDescription": {
+    "message": "次のメッセージの作成方法を選択します。"
+  },
+  "automaticMode": {
+    "message": "自動"
+  },
+  "customMode": {
+    "message": "カスタム"
+  },
+  "languageLabel": {
+    "message": "言語"
+  },
+  "languageHelp": {
+    "message": "最新の完了した AI 回答に合わせ、判定できない場合はブラウザー言語を使います。"
+  },
+  "promptPreviewLabel": {
+    "message": "メッセージプレビュー"
+  },
+  "customMessageLabel": {
+    "message": "カスタムメッセージ"
+  },
+  "automationTitle": {
+    "message": "自動化"
+  },
+  "defaultFollowUps": {
+    "message": "既定の続行回数"
+  },
+  "waitBeforeSending": {
+    "message": "送信前の待機"
+  },
+  "cutOffRepliesTitle": {
+    "message": "途中で切れた回答"
+  },
+  "continueCutOffReplies": {
+    "message": "切れた回答を自動で続行"
+  },
+  "continueCutOffHelp": {
+    "message": "新しいメッセージを送る前に、AI サイトの「Continue generating」を優先します。"
+  },
+  "maximumContinuations": {
+    "message": "1 回の回答での最大続行回数"
+  },
+  "safetyTitle": {
+    "message": "安全機能"
+  },
+  "safetyType": {
+    "message": "入力すると一時停止"
+  },
+  "safetyManualSend": {
+    "message": "手動送信すると一時停止"
+  },
+  "safetyConversation": {
+    "message": "会話が変わると停止"
+  },
+  "safetyLimits": {
+    "message": "利用制限、ログイン、認証を回避しません"
+  },
+  "supportedSitesTitle": {
+    "message": "対応 AI サイト"
+  },
+  "supportedSitesDescription": {
+    "message": "このプロジェクトが内蔵・保守するアダプターのみ実行できます。実サイト認証が完了するまでは Beta です。"
+  },
+  "betaLabel": {
+    "message": "Beta"
+  },
+  "aboutTitle": {
+    "message": "情報"
+  },
+  "interfaceTitle": {
+    "message": "インターフェース"
+  },
+  "interfaceDescription": {
+    "message": "ポップアップと設定ページで使用する言語を選択します。"
+  },
+  "interfaceLanguageLabel": {
+    "message": "表示言語"
+  },
+  "uiLanguageAuto": {
+    "message": "ブラウザーに合わせる"
+  },
+  "uiLanguageEnglish": {
+    "message": "English"
+  },
+  "uiLanguageSimplifiedChinese": {
+    "message": "简体中文"
+  },
+  "uiLanguageTraditionalChinese": {
+    "message": "繁體中文"
+  },
+  "uiLanguageJapanese": {
+    "message": "日本語"
+  },
+  "uiLanguageKorean": {
+    "message": "한국어"
+  },
+  "interfaceLanguageHelp": {
+    "message": "表示言語を変更すると、設定ページが自動的に再読み込みされます。"
+  },
+  "customPromptPlaceholder": {
+    "message": "次のステップに進んでください。"
+  },
+  "unsupported_page_mode": {
+    "message": "このページは対応しているAIチャット画面ではありません。通常の会話を開いて再試行してください。"
+  }
+}

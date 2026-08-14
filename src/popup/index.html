@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI Auto Continue</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="popup-shell">
+    <header class="app-header">
+      <div class="app-heading">
+        <h1 data-i18n="appName">AI Auto Continue</h1>
+        <div class="site-line">
+          <span id="statusDot" class="status-dot" aria-hidden="true"></span>
+          <span id="site" data-i18n="currentSite">Current site</span>
+          <span aria-hidden="true">·</span>
+          <span id="stateText">Ready</span>
+        </div>
+      </div>
+      <button id="settings" class="icon-button" type="button" aria-label="Open settings" title="Open settings">⚙</button>
+    </header>
+
+    <section id="supportedView">
+      <div class="summary-card">
+        <div class="summary-row">
+          <div>
+            <div class="section-label" data-i18n="messageLabel">Message</div>
+            <div id="messageSummary" class="summary-value">Auto · follows conversation</div>
+          </div>
+          <button id="editMessage" class="text-button" type="button" data-i18n="editButton">Edit</button>
+        </div>
+      </div>
+
+      <section id="idleControls" class="control-section">
+        <div class="section-label" data-i18n="followUpsLabel">Follow-ups</div>
+        <div id="countChoices" class="count-choices" role="group" aria-label="Follow-ups">
+          <button type="button" data-count="1">1</button>
+          <button type="button" data-count="3">3</button>
+          <button type="button" data-count="5">5</button>
+          <button type="button" data-count="10">10</button>
+        </div>
+      </section>
+
+      <section id="progressView" class="progress-view" hidden>
+        <div id="progressCount" class="progress-count">0 of 5</div>
+        <div id="progressLabel" class="progress-label" data-i18n="followUpsCompleted">follow-ups completed</div>
+        <div id="activityText" class="activity-text">Waiting for the AI…</div>
+        <div id="nativeCount" class="native-count" hidden></div>
+      </section>
+
+      <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+
+      <button id="mainAction" class="primary-action" type="button">Start 5 follow-ups</button>
+      <p id="safetyLine" class="safety-line" data-i18n="safetyLine">Current tab only · pauses automatically when you type</p>
+    </section>
+
+    <section id="unsupportedView" class="unsupported-view" hidden>
+      <div class="unsupported-icon" aria-hidden="true">—</div>
+      <h2 data-i18n="unsupportedSiteTitle">This website is not supported</h2>
+      <p data-i18n="unsupportedSiteText">For safety, AI Auto Continue only runs on AI websites supported by this project.</p>
+      <button id="openSupportedSites" class="secondary-action" type="button" data-i18n="viewSupportedSites">View supported websites</button>
+    </section>
+
+    <footer class="popup-footer">
+      <a id="publisher-link" href="https://muhook.com/" target="_blank" rel="noopener noreferrer external">muhook.com · Find your next favorite song hook. <span aria-hidden="true">↗</span></a>
+    </footer>
+  </main>
+  <script src="../shared/platforms.js"></script>
+  <script src="../shared/ui-i18n.js"></script>
+  <script src="../content/prompt-language.js"></script>
+  <script src="prompt-settings.js"></script>
+  <script src="publisher-link.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

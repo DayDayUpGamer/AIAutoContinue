@@ -1,0 +1,23 @@
+# v1.3.0 UI execution checklist
+
+- [x] Replace the full settings-form Popup with a compact quick controller.
+- [x] Keep platform and human-readable state visible at the top.
+- [x] Add one-line continuation-message summary and Edit shortcut.
+- [x] Add one-tap 1/3/5/10 follow-up selection.
+- [x] Use one context-aware Start/Stop/Restart primary action.
+- [x] Replace controls with progress while automation runs.
+- [x] Map common internal pause/error codes to user-facing explanations.
+- [x] Add dedicated unsupported-site view.
+- [x] Move prompt mode, language, custom message, delay, and Native Continue settings to Options.
+- [x] Add Options auto-save and supported-platform list.
+- [x] Add `options_ui` to all browser manifests.
+- [x] Keep a lightweight muhook.com footer hyperlink in Popup.
+- [x] Verify canonical HTTPS publisher URL and no tracking parameters.
+- [x] Verify default Popup body height below 420 px.
+- [x] Verify no textarea or advanced settings in Popup.
+- [x] Verify Settings navigation and Options persistence.
+- [x] Run 61 Node tests.
+- [x] Run Chromium DOM integration.
+- [x] Build Chrome, Edge, Firefox, Safari source, and Userscript packages.
+- [x] Run static verification and security audit.
+- [x] Generate ZIPs and SHA-256 checksums.

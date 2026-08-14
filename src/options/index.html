@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI Auto Continue Settings</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <main class="settings-shell">
+    <header class="settings-header">
+      <div>
+        <p class="eyebrow" data-i18n="settingsEyebrow">AI Auto Continue</p>
+        <h1 data-i18n="settingsTitle">Settings</h1>
+        <p data-i18n="settingsSubtitle">Configure the message and safety behavior used by the quick popup.</p>
+      </div>
+      <span id="saveStatus" class="save-status" role="status" aria-live="polite" data-i18n="savedAutomatically">Saved automatically</span>
+    </header>
+
+
+    <section id="interface" class="settings-card">
+      <h2 data-i18n="interfaceTitle">Interface</h2>
+      <p class="section-description" data-i18n="interfaceDescription">Choose the language used by the popup and settings page.</p>
+      <label class="field compact-field">
+        <span data-i18n="interfaceLanguageLabel">Interface language</span>
+        <select id="uiLanguage"></select>
+      </label>
+      <p class="field-help" data-i18n="interfaceLanguageHelp">Changes apply immediately after the settings page reloads.</p>
+    </section>
+
+    <section id="message" class="settings-card">
+      <h2 data-i18n="messageSettingsTitle">Continuation message</h2>
+      <p class="section-description" data-i18n="messageSettingsDescription">Choose how the extension creates the next message.</p>
+      <div class="segmented" role="radiogroup" aria-label="Continuation message mode">
+        <label><input type="radio" name="promptMode" value="auto"><span data-i18n="automaticMode">Automatic</span></label>
+        <label><input type="radio" name="promptMode" value="custom"><span data-i18n="customMode">Custom</span></label>
+      </div>
+
+      <div id="autoSettings" class="conditional-block">
+        <label class="field">
+          <span data-i18n="languageLabel">Language</span>
+          <select id="promptLanguage"></select>
+        </label>
+        <p class="field-help" data-i18n="languageHelp">Automatic follows the latest completed AI reply, then falls back to the browser language.</p>
+        <div id="promptPreview" class="preview-box"></div>
+      </div>
+
+      <div id="customSettings" class="conditional-block" hidden>
+        <label class="field">
+          <span data-i18n="customMessageLabel">Custom message</span>
+          <textarea id="customPrompt" rows="5" maxlength="5000" placeholder="Continue with the next step." data-i18n-placeholder="customPromptPlaceholder"></textarea>
+        </label>
+        <div class="field-meta"><span id="promptLength">0 / 5000</span></div>
+      </div>
+    </section>
+
+    <section class="settings-card">
+      <h2 data-i18n="automationTitle">Automation</h2>
+      <div class="two-column">
+        <label class="field">
+          <span data-i18n="defaultFollowUps">Default follow-ups</span>
+          <select id="maxPromptSubmissions">
+            <option value="1">1</option><option value="3">3</option><option value="5">5</option>
+            <option value="10">10</option><option value="20">20</option>
+          </select>
+        </label>
+        <label class="field">
+          <span data-i18n="waitBeforeSending">Wait before sending</span>
+          <select id="delayMs">
+            <option value="2000">2 s</option><option value="3000">3 s</option>
+            <option value="5000">5 s</option><option value="10000">10 s</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <section class="settings-card">
+      <h2 data-i18n="cutOffRepliesTitle">Cut-off replies</h2>
+      <label class="toggle-row">
+        <div>
+          <strong data-i18n="continueCutOffReplies">Continue cut-off replies automatically</strong>
+          <p data-i18n="continueCutOffHelp">Use the AI website’s own “Continue generating” control before sending a new message.</p>
+        </div>
+        <input id="nativeContinueEnabled" type="checkbox">
+      </label>
+      <label id="nativeMaxRow" class="field compact-field">
+        <span data-i18n="maximumContinuations">Maximum continuations for one reply</span>
+        <select id="maxNativeContinuePerCycle">
+          <option value="1">1</option><option value="3">3</option><option value="5">5</option><option value="10">10</option>
+        </select>
+      </label>
+    </section>
+
+    <section class="settings-card safety-card">
+      <h2 data-i18n="safetyTitle">Safety</h2>
+      <ul>
+        <li data-i18n="safetyType">Pauses when you type</li>
+        <li data-i18n="safetyManualSend">Pauses when you send manually</li>
+        <li data-i18n="safetyConversation">Stops when the conversation changes</li>
+        <li data-i18n="safetyLimits">Does not bypass usage limits, login, or verification</li>
+      </ul>
+    </section>
+
+    <section id="supported-sites" class="settings-card">
+      <h2 data-i18n="supportedSitesTitle">Supported AI websites</h2>
+      <p class="section-description" data-i18n="supportedSitesDescription">Only officially maintained adapters can run. Platform support remains Beta until live-site certification is complete.</p>
+      <div id="platformList" class="platform-list"></div>
+    </section>
+
+    <section class="settings-card about-card">
+      <h2 data-i18n="aboutTitle">About</h2>
+      <p><strong>AI Auto Continue</strong> <span id="version"></span></p>
+      <p data-i18n="localProcessingDisclosure">After you click Start, the extension reads the current AI reply and input state locally to decide when and what to send.</p>
+      <p data-i18n="localOnlyText">Local only. The extension does not upload conversations.</p>
+    </section>
+  </main>
+  <script src="../shared/platforms.js"></script>
+  <script src="../shared/ui-i18n.js"></script>
+  <script src="../content/prompt-language.js"></script>
+  <script src="../popup/prompt-settings.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

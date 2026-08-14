@@ -1,0 +1,323 @@
+{
+  "appName": {
+    "message": "AI 自動繼續"
+  },
+  "appDesc": {
+    "message": "優先點擊網頁 AI 的原生繼續生成按鈕，或依對話語言自動傳送繼續指令。"
+  },
+  "actionTitle": {
+    "message": "AI 自動繼續"
+  },
+  "stopCommand": {
+    "message": "停止目前分頁中的 AI 自動繼續"
+  },
+  "currentSite": {
+    "message": "目前網站"
+  },
+  "promptModeLabel": {
+    "message": "提示詞模式"
+  },
+  "promptModeAuto": {
+    "message": "自動——跟隨對話語言"
+  },
+  "promptModeCustom": {
+    "message": "自訂提示詞"
+  },
+  "promptLanguageLabel": {
+    "message": "自動提示詞語言"
+  },
+  "customPromptLabel": {
+    "message": "自訂繼續提示詞"
+  },
+  "promptSendsLabel": {
+    "message": "自動傳送次數"
+  },
+  "delayLabel": {
+    "message": "等待時間"
+  },
+  "preferNativeLabel": {
+    "message": "優先點擊原生「繼續生成」"
+  },
+  "nativeContinuesLabel": {
+    "message": "單次回答原生續寫次數"
+  },
+  "startButton": {
+    "message": "開始"
+  },
+  "stopButton": {
+    "message": "停止"
+  },
+  "localOnlyText": {
+    "message": "僅在本機執行，不上傳對話內容。"
+  },
+  "moreFromPublisher": {
+    "message": "開發者的其他產品"
+  },
+  "visitWebsite": {
+    "message": "造訪網站"
+  },
+  "promotionDisclosure": {
+    "message": "推廣連結 · 僅點擊後開啟 · 不含追蹤參數"
+  },
+  "languageAutoOption": {
+    "message": "自動——跟隨對話"
+  },
+  "promptAutoHint": {
+    "message": "首次傳送提示詞前，會偵測一次最新的完整 AI 回答。瀏覽器語言後備："
+  },
+  "promptFixedHint": {
+    "message": "本次執行固定使用："
+  },
+  "promptCustomHint": {
+    "message": "將依原樣使用你的自訂提示詞。"
+  },
+  "resolvedPromptPrefix": {
+    "message": "本次提示詞"
+  },
+  "sourceCustom": {
+    "message": "自訂"
+  },
+  "sourcePreferred": {
+    "message": "指定語言"
+  },
+  "sourceConversation": {
+    "message": "對話語言"
+  },
+  "sourceBrowser": {
+    "message": "瀏覽器語言"
+  },
+  "sourceFallback": {
+    "message": "英文備援"
+  },
+  "sourceLegacy": {
+    "message": "舊版自訂提示詞"
+  },
+  "unablePublisher": {
+    "message": "無法開啟開發者網站"
+  },
+  "customPromptRequired": {
+    "message": "請輸入自訂提示詞後再開始。"
+  },
+  "localProcessingDisclosure": {
+    "message": "點擊「開始」後，外掛僅在本機讀取目前 AI 回答和輸入狀態，用於判斷何時傳送以及傳送什麼內容。"
+  },
+  "runConfirmationAuto": {
+    "message": "點擊「開始」即表示你授權外掛向 {site} 最多自動傳送 {count} 則訊息。訊息內容是「繼續下一步」的對應語言版本。"
+  },
+  "runConfirmationConfigured": {
+    "message": "點擊「開始」即表示你授權外掛向 {site} 最多自動傳送 {count} 則訊息，並使用上方顯示的續接提示詞。"
+  },
+  "unsupportedSiteTitle": {
+    "message": "目前網站暫不支援"
+  },
+  "unsupportedSiteText": {
+    "message": "為避免錯誤輸入或傳送，AI 自動繼續僅在本專案明確支援的 AI 網站上執行。"
+  },
+  "openSettings": {
+    "message": "開啟設定"
+  },
+  "messageLabel": {
+    "message": "訊息"
+  },
+  "editButton": {
+    "message": "編輯"
+  },
+  "followUpsLabel": {
+    "message": "繼續次數"
+  },
+  "followUpsCompleted": {
+    "message": "次續接已完成"
+  },
+  "safetyLine": {
+    "message": "僅目前分頁 · 輸入時自動暫停"
+  },
+  "viewSupportedSites": {
+    "message": "查看支援的網站"
+  },
+  "readyState": {
+    "message": "就緒"
+  },
+  "runningState": {
+    "message": "執行中"
+  },
+  "pausedState": {
+    "message": "已暫停"
+  },
+  "completedState": {
+    "message": "已完成"
+  },
+  "errorState": {
+    "message": "需要處理"
+  },
+  "unsupportedState": {
+    "message": "不支援"
+  },
+  "messageAutoSummary": {
+    "message": "自動 · 跟隨對話語言"
+  },
+  "messageCustomSummary": {
+    "message": "自訂 · {prompt}"
+  },
+  "messageFixedSummary": {
+    "message": "自動 · {language}"
+  },
+  "startFollowUps": {
+    "message": "開始續接 {count} 次"
+  },
+  "stopAutomation": {
+    "message": "停止自動繼續"
+  },
+  "startAgain": {
+    "message": "重新開始"
+  },
+  "runAgain": {
+    "message": "再次執行"
+  },
+  "activityWaiting": {
+    "message": "等待 AI 完成回答…"
+  },
+  "activityGenerating": {
+    "message": "AI 正在回答…"
+  },
+  "activitySending": {
+    "message": "正在傳送下一則訊息…"
+  },
+  "activityConfirming": {
+    "message": "正在確認訊息…"
+  },
+  "activityPreparing": {
+    "message": "正在準備自動繼續…"
+  },
+  "nativeContinued": {
+    "message": "已續接被截斷回答 {count} 次"
+  },
+  "popupError": {
+    "message": "無法連接目前分頁。"
+  },
+  "settingsEyebrow": {
+    "message": "AI 自動繼續"
+  },
+  "settingsTitle": {
+    "message": "設定"
+  },
+  "settingsSubtitle": {
+    "message": "設定快捷面板使用的訊息和安全行為。"
+  },
+  "savedAutomatically": {
+    "message": "已自動儲存"
+  },
+  "saving": {
+    "message": "正在儲存…"
+  },
+  "saveFailed": {
+    "message": "設定儲存失敗"
+  },
+  "messageSettingsTitle": {
+    "message": "續接訊息"
+  },
+  "messageSettingsDescription": {
+    "message": "選擇外掛如何產生下一則訊息。"
+  },
+  "automaticMode": {
+    "message": "自動"
+  },
+  "customMode": {
+    "message": "自訂"
+  },
+  "languageLabel": {
+    "message": "語言"
+  },
+  "languageHelp": {
+    "message": "自動模式優先跟隨最新完整 AI 回答，無法判斷時使用瀏覽器語言。"
+  },
+  "promptPreviewLabel": {
+    "message": "訊息預覽"
+  },
+  "customMessageLabel": {
+    "message": "自訂訊息"
+  },
+  "automationTitle": {
+    "message": "自動化"
+  },
+  "defaultFollowUps": {
+    "message": "預設續接次數"
+  },
+  "waitBeforeSending": {
+    "message": "傳送前等待"
+  },
+  "cutOffRepliesTitle": {
+    "message": "被截斷的回答"
+  },
+  "continueCutOffReplies": {
+    "message": "自動繼續被截斷的回答"
+  },
+  "continueCutOffHelp": {
+    "message": "傳送新訊息前，優先使用 AI 網站自己的「繼續生成」按鈕。"
+  },
+  "maximumContinuations": {
+    "message": "單次回答最多續接次數"
+  },
+  "safetyTitle": {
+    "message": "安全保護"
+  },
+  "safetyType": {
+    "message": "輸入文字時自動暫停"
+  },
+  "safetyManualSend": {
+    "message": "手動傳送時自動暫停"
+  },
+  "safetyConversation": {
+    "message": "對話發生變化時停止"
+  },
+  "safetyLimits": {
+    "message": "不會繞過使用限制、登入或驗證"
+  },
+  "supportedSitesTitle": {
+    "message": "支援的 AI 網站"
+  },
+  "supportedSitesDescription": {
+    "message": "僅內建並由本專案維護的適配器可以執行。完成真實網站認證前，平台支援狀態均為 Beta。"
+  },
+  "betaLabel": {
+    "message": "Beta"
+  },
+  "aboutTitle": {
+    "message": "關於"
+  },
+  "interfaceTitle": {
+    "message": "介面"
+  },
+  "interfaceDescription": {
+    "message": "選擇彈出面板和設定頁使用的語言。"
+  },
+  "interfaceLanguageLabel": {
+    "message": "介面語言"
+  },
+  "uiLanguageAuto": {
+    "message": "跟隨瀏覽器"
+  },
+  "uiLanguageEnglish": {
+    "message": "English"
+  },
+  "uiLanguageSimplifiedChinese": {
+    "message": "简体中文"
+  },
+  "uiLanguageTraditionalChinese": {
+    "message": "繁體中文"
+  },
+  "uiLanguageJapanese": {
+    "message": "日本語"
+  },
+  "uiLanguageKorean": {
+    "message": "한국어"
+  },
+  "interfaceLanguageHelp": {
+    "message": "修改介面語言後，設定頁會自動重新整理並套用。"
+  },
+  "customPromptPlaceholder": {
+    "message": "繼續下一步。"
+  },
+  "unsupported_page_mode": {
+    "message": "目前頁面不是支援的 AI 對話頁面，請開啟一般對話後再試。"
+  }
+}

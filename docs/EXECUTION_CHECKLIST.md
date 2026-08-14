@@ -1,0 +1,31 @@
+# v1.3.2 open-source hardening checklist
+
+- [x] Change platform matching to exact HTTPS host allowlists.
+- [x] Reject unlisted subdomains.
+- [x] Add known non-chat page-mode gating before content-script injection.
+- [x] Re-check page readiness inside the content runtime.
+- [x] Require strict and fallback composers to belong to a verified chat root.
+- [x] Scope send, stop, assistant, user, and native-continuation discovery to the verified chat area.
+- [x] Remove production Generic Test Adapter code.
+- [x] Move broad DOM fixture behavior to `tests/fixtures/` only.
+- [x] Remove Extension ↔ Userscript page-world activity signaling.
+- [x] Remove page-visible Userscript runtime globals.
+- [x] Synchronize Userscript source metadata with `package.json`.
+- [x] Give Firefox a stable extension ID: `ai-auto-continue@oppanda.com`.
+- [x] Replace OS `zip` packaging with deterministic Node.js ZIP generation.
+- [x] Add byte-for-byte reproducible ZIP regression coverage.
+- [x] Make the full verification runner independent of nested npm invocations and auto-detect Python 3.
+- [x] Pin GitHub Actions to immutable full commit SHAs.
+- [x] Add Dependabot configuration.
+- [x] Add tag-driven GitHub Release automation.
+- [x] Add GitHub artifact attestations for release ZIPs.
+- [x] Switch vulnerability-reporting guidance to GitHub Private Vulnerability Reporting.
+- [x] Rename public “official adapter” terminology to built-in/project-maintained adapters.
+- [x] Reorganize current technical docs and archive version-specific historical reports.
+- [x] Update support-site and public version strings to 1.3.2.
+- [x] Run 74 Node tests.
+- [x] Run Chromium DOM integration.
+- [x] Build Chrome, Edge, Firefox, Safari source, and Userscript.
+- [x] Run static verification and security/release audit.
+- [x] Package all release archives twice and verify identical SHA-256 output.
+- [x] Validate every ZIP with an independent ZIP reader and confirm test fixtures are absent.

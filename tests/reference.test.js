@@ -1,0 +1,2 @@
+const test=require('node:test');const assert=require('node:assert/strict');const fs=require('fs');const path=require('path');
+test('reference metadata is retained without redistributing third-party source',()=>{const dir=path.resolve(__dirname,'../reference');const metadata=path.join(dir,'README.md');assert.ok(fs.existsSync(metadata));const files=fs.readdirSync(dir);assert.deepEqual(files,['README.md']);const text=fs.readFileSync(metadata,'utf8');assert.match(text,/adamlui\/chatgpt-auto-continue/);assert.match(text,/No third-party source file is redistributed/);});

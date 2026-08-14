@@ -1,0 +1,323 @@
+{
+  "appName": {
+    "message": "AI 自动继续"
+  },
+  "appDesc": {
+    "message": "优先点击网页 AI 的原生继续生成按钮，或根据对话语言自动发送继续指令。"
+  },
+  "actionTitle": {
+    "message": "AI 自动继续"
+  },
+  "stopCommand": {
+    "message": "停止当前标签页中的 AI 自动继续"
+  },
+  "currentSite": {
+    "message": "当前网站"
+  },
+  "promptModeLabel": {
+    "message": "提示词模式"
+  },
+  "promptModeAuto": {
+    "message": "自动——跟随对话语言"
+  },
+  "promptModeCustom": {
+    "message": "自定义提示词"
+  },
+  "promptLanguageLabel": {
+    "message": "自动提示词语言"
+  },
+  "customPromptLabel": {
+    "message": "自定义继续提示词"
+  },
+  "promptSendsLabel": {
+    "message": "自动发送次数"
+  },
+  "delayLabel": {
+    "message": "等待时间"
+  },
+  "preferNativeLabel": {
+    "message": "优先点击原生“继续生成”"
+  },
+  "nativeContinuesLabel": {
+    "message": "单次回答原生续写次数"
+  },
+  "startButton": {
+    "message": "开始"
+  },
+  "stopButton": {
+    "message": "停止"
+  },
+  "localOnlyText": {
+    "message": "仅在本地运行，不上传对话内容。"
+  },
+  "moreFromPublisher": {
+    "message": "开发者的其他产品"
+  },
+  "visitWebsite": {
+    "message": "访问网站"
+  },
+  "promotionDisclosure": {
+    "message": "推广链接 · 仅点击后打开 · 不含跟踪参数"
+  },
+  "languageAutoOption": {
+    "message": "自动——跟随对话"
+  },
+  "promptAutoHint": {
+    "message": "首次发送提示词前，会检测一次最新的完整 AI 回答。浏览器语言兜底："
+  },
+  "promptFixedHint": {
+    "message": "本次运行固定使用："
+  },
+  "promptCustomHint": {
+    "message": "将按原样使用你的自定义提示词。"
+  },
+  "resolvedPromptPrefix": {
+    "message": "本次提示词"
+  },
+  "sourceCustom": {
+    "message": "自定义"
+  },
+  "sourcePreferred": {
+    "message": "指定语言"
+  },
+  "sourceConversation": {
+    "message": "对话语言"
+  },
+  "sourceBrowser": {
+    "message": "浏览器语言"
+  },
+  "sourceFallback": {
+    "message": "英文兜底"
+  },
+  "sourceLegacy": {
+    "message": "旧版自定义提示词"
+  },
+  "unablePublisher": {
+    "message": "无法打开开发者网站"
+  },
+  "customPromptRequired": {
+    "message": "请输入自定义提示词后再开始。"
+  },
+  "localProcessingDisclosure": {
+    "message": "点击“开始”后，插件仅在本地读取当前 AI 回答和输入状态，用于判断何时发送以及发送什么内容。"
+  },
+  "runConfirmationAuto": {
+    "message": "点击“开始”即表示你授权插件向 {site} 最多自动发送 {count} 条消息。消息内容是“继续下一步”的对应语言版本。"
+  },
+  "runConfirmationConfigured": {
+    "message": "点击“开始”即表示你授权插件向 {site} 最多自动发送 {count} 条消息，并使用上方显示的续接提示词。"
+  },
+  "unsupportedSiteTitle": {
+    "message": "当前网站暂不支持"
+  },
+  "unsupportedSiteText": {
+    "message": "为避免错误输入或发送，AI 自动继续仅在本项目明确支持的 AI 网站上运行。"
+  },
+  "openSettings": {
+    "message": "打开设置"
+  },
+  "messageLabel": {
+    "message": "消息"
+  },
+  "editButton": {
+    "message": "编辑"
+  },
+  "followUpsLabel": {
+    "message": "继续次数"
+  },
+  "followUpsCompleted": {
+    "message": "次续接已完成"
+  },
+  "safetyLine": {
+    "message": "仅当前标签页 · 输入时自动暂停"
+  },
+  "viewSupportedSites": {
+    "message": "查看支持的网站"
+  },
+  "readyState": {
+    "message": "就绪"
+  },
+  "runningState": {
+    "message": "运行中"
+  },
+  "pausedState": {
+    "message": "已暂停"
+  },
+  "completedState": {
+    "message": "已完成"
+  },
+  "errorState": {
+    "message": "需要处理"
+  },
+  "unsupportedState": {
+    "message": "不支持"
+  },
+  "messageAutoSummary": {
+    "message": "自动 · 跟随对话语言"
+  },
+  "messageCustomSummary": {
+    "message": "自定义 · {prompt}"
+  },
+  "messageFixedSummary": {
+    "message": "自动 · {language}"
+  },
+  "startFollowUps": {
+    "message": "开始续接 {count} 次"
+  },
+  "stopAutomation": {
+    "message": "停止自动继续"
+  },
+  "startAgain": {
+    "message": "重新开始"
+  },
+  "runAgain": {
+    "message": "再次运行"
+  },
+  "activityWaiting": {
+    "message": "等待 AI 完成回答…"
+  },
+  "activityGenerating": {
+    "message": "AI 正在回答…"
+  },
+  "activitySending": {
+    "message": "正在发送下一条消息…"
+  },
+  "activityConfirming": {
+    "message": "正在确认消息…"
+  },
+  "activityPreparing": {
+    "message": "正在准备自动继续…"
+  },
+  "nativeContinued": {
+    "message": "已续接被截断回答 {count} 次"
+  },
+  "popupError": {
+    "message": "无法连接当前标签页。"
+  },
+  "settingsEyebrow": {
+    "message": "AI 自动继续"
+  },
+  "settingsTitle": {
+    "message": "设置"
+  },
+  "settingsSubtitle": {
+    "message": "配置快捷面板使用的消息和安全行为。"
+  },
+  "savedAutomatically": {
+    "message": "已自动保存"
+  },
+  "saving": {
+    "message": "正在保存…"
+  },
+  "saveFailed": {
+    "message": "设置保存失败"
+  },
+  "messageSettingsTitle": {
+    "message": "续接消息"
+  },
+  "messageSettingsDescription": {
+    "message": "选择插件如何生成下一条消息。"
+  },
+  "automaticMode": {
+    "message": "自动"
+  },
+  "customMode": {
+    "message": "自定义"
+  },
+  "languageLabel": {
+    "message": "语言"
+  },
+  "languageHelp": {
+    "message": "自动模式优先跟随最新完整 AI 回答，无法判断时使用浏览器语言。"
+  },
+  "promptPreviewLabel": {
+    "message": "消息预览"
+  },
+  "customMessageLabel": {
+    "message": "自定义消息"
+  },
+  "automationTitle": {
+    "message": "自动化"
+  },
+  "defaultFollowUps": {
+    "message": "默认续接次数"
+  },
+  "waitBeforeSending": {
+    "message": "发送前等待"
+  },
+  "cutOffRepliesTitle": {
+    "message": "被截断的回答"
+  },
+  "continueCutOffReplies": {
+    "message": "自动继续被截断的回答"
+  },
+  "continueCutOffHelp": {
+    "message": "发送新消息前，优先使用 AI 网站自己的“继续生成”按钮。"
+  },
+  "maximumContinuations": {
+    "message": "单次回答最多续接次数"
+  },
+  "safetyTitle": {
+    "message": "安全保护"
+  },
+  "safetyType": {
+    "message": "输入文字时自动暂停"
+  },
+  "safetyManualSend": {
+    "message": "手动发送时自动暂停"
+  },
+  "safetyConversation": {
+    "message": "对话发生变化时停止"
+  },
+  "safetyLimits": {
+    "message": "不会绕过使用限制、登录或验证"
+  },
+  "supportedSitesTitle": {
+    "message": "支持的 AI 网站"
+  },
+  "supportedSitesDescription": {
+    "message": "仅内置并由本项目维护的适配器可以运行。完成真实网站认证前，平台支持状态均为 Beta。"
+  },
+  "betaLabel": {
+    "message": "Beta"
+  },
+  "aboutTitle": {
+    "message": "关于"
+  },
+  "interfaceTitle": {
+    "message": "界面"
+  },
+  "interfaceDescription": {
+    "message": "选择弹出面板和设置页使用的语言。"
+  },
+  "interfaceLanguageLabel": {
+    "message": "界面语言"
+  },
+  "uiLanguageAuto": {
+    "message": "跟随浏览器"
+  },
+  "uiLanguageEnglish": {
+    "message": "English"
+  },
+  "uiLanguageSimplifiedChinese": {
+    "message": "简体中文"
+  },
+  "uiLanguageTraditionalChinese": {
+    "message": "繁體中文"
+  },
+  "uiLanguageJapanese": {
+    "message": "日本語"
+  },
+  "uiLanguageKorean": {
+    "message": "한국어"
+  },
+  "interfaceLanguageHelp": {
+    "message": "修改界面语言后，设置页会自动刷新并应用。"
+  },
+  "customPromptPlaceholder": {
+    "message": "继续下一步。"
+  },
+  "unsupported_page_mode": {
+    "message": "当前页面不是受支持的 AI 对话页面，请打开普通对话后重试。"
+  }
+}

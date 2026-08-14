@@ -1,0 +1,323 @@
+{
+  "appName": {
+    "message": "AI Auto Continue"
+  },
+  "appDesc": {
+    "message": "Automatically continues web AI chats using native continue controls or a language-aware custom prompt."
+  },
+  "actionTitle": {
+    "message": "AI Auto Continue"
+  },
+  "stopCommand": {
+    "message": "Stop AI Auto Continue in the active tab"
+  },
+  "currentSite": {
+    "message": "Current site"
+  },
+  "promptModeLabel": {
+    "message": "Prompt mode"
+  },
+  "promptModeAuto": {
+    "message": "Auto — follow conversation language"
+  },
+  "promptModeCustom": {
+    "message": "Custom prompt"
+  },
+  "promptLanguageLabel": {
+    "message": "Auto prompt language"
+  },
+  "customPromptLabel": {
+    "message": "Custom continuation prompt"
+  },
+  "promptSendsLabel": {
+    "message": "Prompt sends"
+  },
+  "delayLabel": {
+    "message": "Delay"
+  },
+  "preferNativeLabel": {
+    "message": "Prefer native Continue generating"
+  },
+  "nativeContinuesLabel": {
+    "message": "Native continues / response"
+  },
+  "startButton": {
+    "message": "Start"
+  },
+  "stopButton": {
+    "message": "Stop"
+  },
+  "localOnlyText": {
+    "message": "Local only. The extension does not upload conversations."
+  },
+  "moreFromPublisher": {
+    "message": "More from the publisher"
+  },
+  "visitWebsite": {
+    "message": "Visit website"
+  },
+  "promotionDisclosure": {
+    "message": "Promotional link · opens only when clicked · no tracking parameters"
+  },
+  "languageAutoOption": {
+    "message": "Auto — follow conversation"
+  },
+  "promptAutoHint": {
+    "message": "The latest completed AI reply is detected once before the first prompt send. Browser-language fallback:"
+  },
+  "promptFixedHint": {
+    "message": "The selected language is used for this run:"
+  },
+  "promptCustomHint": {
+    "message": "Your custom prompt is used exactly as written."
+  },
+  "resolvedPromptPrefix": {
+    "message": "Run prompt"
+  },
+  "sourceCustom": {
+    "message": "custom"
+  },
+  "sourcePreferred": {
+    "message": "selected language"
+  },
+  "sourceConversation": {
+    "message": "conversation"
+  },
+  "sourceBrowser": {
+    "message": "browser language"
+  },
+  "sourceFallback": {
+    "message": "English fallback"
+  },
+  "sourceLegacy": {
+    "message": "legacy custom prompt"
+  },
+  "unablePublisher": {
+    "message": "Unable to open publisher website"
+  },
+  "customPromptRequired": {
+    "message": "Enter a custom prompt before starting."
+  },
+  "localProcessingDisclosure": {
+    "message": "After you click Start, the extension reads the current AI reply and input state locally to decide when and what to send."
+  },
+  "runConfirmationAuto": {
+    "message": "Click Start to authorize up to {count} automatic messages to {site}. The message will be a localized equivalent of “Continue with the next step.”"
+  },
+  "runConfirmationConfigured": {
+    "message": "Click Start to authorize up to {count} automatic messages to {site} using the continuation prompt shown above."
+  },
+  "unsupportedSiteTitle": {
+    "message": "This website is not supported"
+  },
+  "unsupportedSiteText": {
+    "message": "For safety, AI Auto Continue only runs on AI websites supported by this project."
+  },
+  "openSettings": {
+    "message": "Open settings"
+  },
+  "messageLabel": {
+    "message": "Message"
+  },
+  "editButton": {
+    "message": "Edit"
+  },
+  "followUpsLabel": {
+    "message": "Follow-ups"
+  },
+  "followUpsCompleted": {
+    "message": "follow-ups completed"
+  },
+  "safetyLine": {
+    "message": "Current tab only · pauses automatically when you type"
+  },
+  "viewSupportedSites": {
+    "message": "View supported websites"
+  },
+  "readyState": {
+    "message": "Ready"
+  },
+  "runningState": {
+    "message": "Running"
+  },
+  "pausedState": {
+    "message": "Paused"
+  },
+  "completedState": {
+    "message": "Completed"
+  },
+  "errorState": {
+    "message": "Needs attention"
+  },
+  "unsupportedState": {
+    "message": "Unsupported"
+  },
+  "messageAutoSummary": {
+    "message": "Auto · follows conversation"
+  },
+  "messageCustomSummary": {
+    "message": "Custom · {prompt}"
+  },
+  "messageFixedSummary": {
+    "message": "Auto · {language}"
+  },
+  "startFollowUps": {
+    "message": "Start {count} follow-ups"
+  },
+  "stopAutomation": {
+    "message": "Stop automation"
+  },
+  "startAgain": {
+    "message": "Start again"
+  },
+  "runAgain": {
+    "message": "Run again"
+  },
+  "activityWaiting": {
+    "message": "Waiting for the AI to finish…"
+  },
+  "activityGenerating": {
+    "message": "AI is responding…"
+  },
+  "activitySending": {
+    "message": "Sending the next message…"
+  },
+  "activityConfirming": {
+    "message": "Confirming the message…"
+  },
+  "activityPreparing": {
+    "message": "Preparing automation…"
+  },
+  "nativeContinued": {
+    "message": "Continued a cut-off reply {count} time(s)"
+  },
+  "popupError": {
+    "message": "Unable to communicate with the current tab."
+  },
+  "settingsEyebrow": {
+    "message": "AI Auto Continue"
+  },
+  "settingsTitle": {
+    "message": "Settings"
+  },
+  "settingsSubtitle": {
+    "message": "Configure the message and safety behavior used by the quick popup."
+  },
+  "savedAutomatically": {
+    "message": "Saved automatically"
+  },
+  "saving": {
+    "message": "Saving…"
+  },
+  "saveFailed": {
+    "message": "Could not save settings"
+  },
+  "messageSettingsTitle": {
+    "message": "Continuation message"
+  },
+  "messageSettingsDescription": {
+    "message": "Choose how the extension creates the next message."
+  },
+  "automaticMode": {
+    "message": "Automatic"
+  },
+  "customMode": {
+    "message": "Custom"
+  },
+  "languageLabel": {
+    "message": "Language"
+  },
+  "languageHelp": {
+    "message": "Automatic follows the latest completed AI reply, then falls back to the browser language."
+  },
+  "promptPreviewLabel": {
+    "message": "Message preview"
+  },
+  "customMessageLabel": {
+    "message": "Custom message"
+  },
+  "automationTitle": {
+    "message": "Automation"
+  },
+  "defaultFollowUps": {
+    "message": "Default follow-ups"
+  },
+  "waitBeforeSending": {
+    "message": "Wait before sending"
+  },
+  "cutOffRepliesTitle": {
+    "message": "Cut-off replies"
+  },
+  "continueCutOffReplies": {
+    "message": "Continue cut-off replies automatically"
+  },
+  "continueCutOffHelp": {
+    "message": "Use the AI website’s own “Continue generating” control before sending a new message."
+  },
+  "maximumContinuations": {
+    "message": "Maximum continuations for one reply"
+  },
+  "safetyTitle": {
+    "message": "Safety"
+  },
+  "safetyType": {
+    "message": "Pauses when you type"
+  },
+  "safetyManualSend": {
+    "message": "Pauses when you send manually"
+  },
+  "safetyConversation": {
+    "message": "Stops when the conversation changes"
+  },
+  "safetyLimits": {
+    "message": "Does not bypass usage limits, login, or verification"
+  },
+  "supportedSitesTitle": {
+    "message": "Supported AI websites"
+  },
+  "supportedSitesDescription": {
+    "message": "Only built-in, project-maintained adapters can run. Platform support remains Beta until live-site certification is complete."
+  },
+  "betaLabel": {
+    "message": "Beta"
+  },
+  "aboutTitle": {
+    "message": "About"
+  },
+  "interfaceTitle": {
+    "message": "Interface"
+  },
+  "interfaceDescription": {
+    "message": "Choose the language used by the popup and settings page."
+  },
+  "interfaceLanguageLabel": {
+    "message": "Interface language"
+  },
+  "uiLanguageAuto": {
+    "message": "Browser default"
+  },
+  "uiLanguageEnglish": {
+    "message": "English"
+  },
+  "uiLanguageSimplifiedChinese": {
+    "message": "Simplified Chinese"
+  },
+  "uiLanguageTraditionalChinese": {
+    "message": "Traditional Chinese"
+  },
+  "uiLanguageJapanese": {
+    "message": "Japanese"
+  },
+  "uiLanguageKorean": {
+    "message": "Korean"
+  },
+  "interfaceLanguageHelp": {
+    "message": "The settings page reloads automatically after you change the interface language."
+  },
+  "customPromptPlaceholder": {
+    "message": "Continue with the next step."
+  },
+  "unsupported_page_mode": {
+    "message": "This page is not a supported AI chat. Open a normal conversation and try again."
+  }
+}

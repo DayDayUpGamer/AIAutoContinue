@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support
+    url: https://www.oppanda.com/ai-auto-continue/support/
+    about: Usage help and non-GitHub support
+  - name: Privacy policy
+    url: https://www.oppanda.com/ai-auto-continue/privacy/
+    about: Data handling and privacy information

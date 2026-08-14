@@ -1,0 +1,78 @@
+name: Bug report
+description: Report a reproducible problem with AI Auto Continue
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Remove private conversation text, credentials, cookies, and tokens before submitting.
+  - type: input
+    id: extension_version
+    attributes:
+      label: Extension version
+      placeholder: "1.3.2"
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: "Chrome 151"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: AI platform
+      options:
+        - ChatGPT
+        - Claude
+        - Gemini
+        - Doubao
+        - Qwen
+        - DeepSeek
+        - Kimi
+        - Tencent Yuanbao
+        - ChatGLM
+        - Microsoft Copilot
+        - Perplexity
+        - Grok
+        - Other / unsupported
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Use a minimal, privacy-safe example.
+      placeholder: |
+        1. Open ...
+        2. Start with ... follow-ups
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Redacted logs or screenshots
+      description: Do not include conversation content, passwords, cookies, tokens, or account identifiers.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed private conversations, credentials, cookies, tokens, and other sensitive information.
+          required: true

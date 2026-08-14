@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Privacy Policy for the AI Auto Continue browser extension.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://www.oppanda.com/ai-auto-continue/privacy/">
+  <title>AI Auto Continue Privacy Policy | Oppanda</title>
+  <style>
+    :root {
+      --bg: #f7f8fb;
+      --panel: #ffffff;
+      --text: #1f2937;
+      --muted: #667085;
+      --line: #e5e7eb;
+      --accent: #4f46e5;
+      --accent-soft: #eef2ff;
+      --max: 860px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.72 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+    a { color: var(--accent); text-underline-offset: 3px; }
+    .page { width: min(calc(100% - 32px), var(--max)); margin: 40px auto 64px; }
+    .hero, .policy {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: 0 12px 36px rgba(15, 23, 42, .06);
+    }
+    .hero { padding: 32px; margin-bottom: 18px; }
+    .eyebrow { margin: 0 0 8px; color: var(--accent); font-weight: 700; letter-spacing: .04em; text-transform: uppercase; font-size: 13px; }
+    h1 { margin: 0 0 10px; font-size: clamp(30px, 5vw, 44px); line-height: 1.15; letter-spacing: -.025em; }
+    .subtitle { margin: 0; color: var(--muted); }
+    .meta { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 22px; }
+    .pill { background: var(--accent-soft); color: #3730a3; border-radius: 999px; padding: 7px 11px; font-size: 13px; font-weight: 650; }
+    .language-nav { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 22px; }
+    .language-nav a { display: inline-block; padding: 8px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); text-decoration: none; font-weight: 650; }
+    .policy { padding: 32px; }
+    .section-language + .section-language { border-top: 1px solid var(--line); margin-top: 44px; padding-top: 44px; }
+    h2 { margin: 30px 0 8px; font-size: 23px; line-height: 1.3; }
+    h3 { margin: 26px 0 8px; font-size: 18px; }
+    p { margin: 10px 0; }
+    ul { padding-left: 24px; }
+    li + li { margin-top: 5px; }
+    .notice { border-left: 4px solid var(--accent); background: var(--accent-soft); border-radius: 0 12px 12px 0; padding: 14px 16px; margin: 20px 0; }
+    code { background: rgba(127,127,127,.12); border-radius: 5px; padding: .12em .35em; overflow-wrap: anywhere; }
+    footer { color: var(--muted); text-align: center; font-size: 13px; padding: 24px 8px 0; }
+    @media (max-width: 600px) {
+      .page { width: min(calc(100% - 20px), var(--max)); margin-top: 14px; }
+      .hero, .policy { border-radius: 14px; padding: 22px 18px; }
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0b1020; --panel: #12182a; --text: #eef2ff; --muted: #aeb8ce; --line: #29324a; --accent: #a5b4fc; --accent-soft: #20284a; }
+      .pill { color: #dbe3ff; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">Oppanda · AI Auto Continue</p>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">How the AI Auto Continue browser extension handles data.</p>
+      <div class="meta">
+        <span class="pill">Effective July 29, 2026</span>
+        <span class="pill">Local-first</span>
+        <span class="pill">No analytics</span>
+      </div>
+      <nav class="language-nav" aria-label="Language">
+        <a href="#english">English</a>
+        <a href="#chinese" lang="zh-CN">简体中文</a>
+      </nav>
+    </header>
+
+    <article class="policy">
+      <section id="english" class="section-language" lang="en">
+        <h2>AI Auto Continue Privacy Policy</h2>
+        <p><strong>Policy website:</strong> <code>https://www.oppanda.com/ai-auto-continue/privacy/</code></p>
+        <div class="notice">AI Auto Continue is local-first. It does not send AI conversation content to Oppanda or any developer-operated server.</div>
+
+        <h3>1. What the extension handles</h3>
+        <p>After the user explicitly starts a run on a supported AI website, the extension temporarily reads the minimum page state needed to provide its user-facing function:</p>
+        <ul>
+          <li>the latest AI reply and its visible text;</li>
+          <li>whether the AI is currently generating;</li>
+          <li>native “Continue generating” controls;</li>
+          <li>the chat input field and its current contents;</li>
+          <li>message and submission state needed to verify a follow-up;</li>
+          <li>the current supported AI website and conversation context.</li>
+        </ul>
+        <p>This information may include website content, personal communications, form data and user-generated content. It is processed locally for the extension’s disclosed single purpose: continuing the current AI conversation after the user starts automation.</p>
+
+        <h3>2. Local settings</h3>
+        <p>The extension stores prompt mode, custom continuation text, preferred language, follow-up count, delay, native-continuation preferences and related safety/interface settings in browser-local extension storage. It does not store complete AI replies or complete conversation histories.</p>
+
+        <h3>3. Automatic language detection</h3>
+        <p>When automatic prompt language is enabled, the extension reads a bounded sample from the latest completed AI reply immediately before the first follow-up and uses the browser’s built-in extension language detector. The sample is processed locally, is not persisted and is not sent to <code>www.oppanda.com</code>, <code>muhook.com</code> or another server.</p>
+
+        <h3>4. What the extension does not collect or transmit</h3>
+        <ul>
+          <li>No AI conversations, prompts or page content are uploaded to the developer.</li>
+          <li>No user data is sold, rented or shared.</li>
+          <li>No analytics, telemetry, advertising profile or personalized advertising is used.</li>
+          <li>No browser history, cookies, downloads or clipboard data are requested.</li>
+          <li>No network interception, remote executable code, remote advertising script or remote promotion configuration is used.</li>
+        </ul>
+        <p>The extension does not contact <code>www.oppanda.com</code> during normal automation. Oppanda hosts this policy and related publisher information.</p>
+
+        <h3>5. Publisher link to muhook.com</h3>
+        <p>The Popup contains one clearly labeled link to <a href="https://muhook.com/" rel="external noopener noreferrer">muhook.com</a> with the text “Find your next favorite song hook.” It opens only after the user clicks it, contains no affiliate or tracking parameters and receives no AI conversation, prompt, settings or browsing data from the extension. Activity after navigation is governed by that website’s own privacy policy.</p>
+
+        <h3>6. Permissions</h3>
+        <ul>
+          <li><strong>activeTab:</strong> access the current supported AI tab after user interaction;</li>
+          <li><strong>scripting:</strong> inject the bundled local controller into the current supported AI tab;</li>
+          <li><strong>storage:</strong> save extension settings locally.</li>
+        </ul>
+
+        <h3>7. Retention and deletion</h3>
+        <p>Transient page content is not retained after it is no longer needed for the active run. Users can delete local settings by uninstalling the extension or clearing its local storage through browser extension controls.</p>
+
+        <h3>8. Third-party AI services</h3>
+        <p>The extension interacts with the normal web interfaces of supported third-party AI services. Their own terms and privacy policies continue to apply. The extension does not bypass sign-in, CAPTCHAs, rate limits, usage quotas, safety guardrails or other protective measures and pauses when it detects blocking or verification states.</p>
+
+        <h3>9. Security and Limited Use</h3>
+        <p>The extension follows a local-first, minimum-permission design. Use of information received from Chrome APIs adheres to the Chrome Web Store User Data Policy, including the Limited Use requirements.</p>
+
+        <h3>10. Changes and contact</h3>
+        <p>This policy may be updated when functionality or data practices change. For privacy questions, use the publisher contact information provided on <a href="https://www.oppanda.com/" rel="home">www.oppanda.com</a>.</p>
+      </section>
+
+      <section id="chinese" class="section-language" lang="zh-CN">
+        <h2>AI Auto Continue 隐私政策</h2>
+        <p><strong>政策网页：</strong><code>https://www.oppanda.com/ai-auto-continue/privacy/</code></p>
+        <div class="notice">AI Auto Continue 采用本地优先设计，不会把 AI 对话内容发送到 Oppanda 或开发者运营的任何服务器。</div>
+
+        <h3>1. 扩展会处理哪些信息</h3>
+        <p>只有用户在受支持的 AI 网站上明确点击开始后，扩展才会临时读取实现用户功能所必需的最少页面状态：</p>
+        <ul>
+          <li>最新 AI 回答及其可见文本；</li>
+          <li>AI 当前是否正在生成；</li>
+          <li>页面原生“继续生成”控件；</li>
+          <li>对话输入框及其当前内容；</li>
+          <li>用于确认续接消息是否发送成功的消息与提交状态；</li>
+          <li>当前受支持的 AI 网站和对话上下文。</li>
+        </ul>
+        <p>这些信息可能包含网站内容、个人通信、表单数据和用户生成内容。所有信息只在浏览器本地处理，用于扩展公开说明的单一用途：在用户启动自动化后继续当前 AI 对话。</p>
+
+        <h3>2. 本地设置</h3>
+        <p>扩展会在浏览器本地扩展存储中保存提示词模式、自定义续接内容、首选语言、续接次数、延迟、原生续写偏好以及相关安全和界面设置。扩展不会保存完整 AI 回答或完整对话历史。</p>
+
+        <h3>3. 自动语言检测</h3>
+        <p>启用自动提示词语言时，扩展会在第一次发送续接消息前，从最新一条已完成的 AI 回答中读取有限长度的文本，并调用浏览器内置语言检测功能。文本只在本地处理，不持久保存，也不会发送到 <code>www.oppanda.com</code>、<code>muhook.com</code> 或其他服务器。</p>
+
+        <h3>4. 扩展不会收集或传输的信息</h3>
+        <ul>
+          <li>不会向开发者上传 AI 对话、提示词或网页内容；</li>
+          <li>不会出售、出租或共享用户数据；</li>
+          <li>不会收集分析、遥测或建立广告画像；</li>
+          <li>不会请求浏览器历史、Cookie、下载记录或剪贴板数据；</li>
+          <li>不会拦截网络流量或加载远程可执行代码、广告脚本和推广配置。</li>
+        </ul>
+        <p>扩展在正常自动化过程中不会访问 <code>www.oppanda.com</code>。Oppanda 仅用于发布本政策及相关开发者信息。</p>
+
+        <h3>5. muhook.com 推广链接</h3>
+        <p>Popup 底部包含一个明确标记的 <a href="https://muhook.com/" rel="external noopener noreferrer">muhook.com</a> 链接，文案为“Find your next favorite song hook.”。只有用户点击后才会打开，链接不包含联盟或跟踪参数，扩展也不会向该网站发送 AI 对话、提示词、设置或浏览活动。跳转后的活动适用该网站自身的隐私政策。</p>
+
+        <h3>6. 权限</h3>
+        <ul>
+          <li><strong>activeTab：</strong>用户操作后访问当前受支持的 AI 标签页；</li>
+          <li><strong>scripting：</strong>把扩展随包提供的本地控制器注入当前受支持的 AI 标签页；</li>
+          <li><strong>storage：</strong>在本地保存扩展设置。</li>
+        </ul>
+
+        <h3>7. 保留与删除</h3>
+        <p>运行期间临时读取的页面内容，在当前运行不再需要后不会被保留。用户可以卸载扩展，或通过浏览器扩展管理功能清除本地存储。</p>
+
+        <h3>8. 第三方 AI 服务</h3>
+        <p>扩展通过受支持第三方 AI 服务的正常网页界面工作，相关服务自身的条款和隐私政策仍然适用。扩展不会绕过登录、验证码、速率限制、使用配额、安全防护或其他保护措施；检测到阻断或验证状态时会暂停。</p>
+
+        <h3>9. 安全与有限使用</h3>
+        <p>扩展采用本地优先和最小权限设计。对通过 Chrome API 获得的信息的使用将遵守 Chrome Web Store 用户数据政策，包括 Limited Use（有限使用）要求。</p>
+
+        <h3>10. 政策更新与联系</h3>
+        <p>扩展功能或数据处理方式发生变化时，本政策可能更新。有关隐私问题，请使用 <a href="https://www.oppanda.com/" rel="home">www.oppanda.com</a> 上公布的开发者联系方式。</p>
+      </section>
+    </article>
+
+    <footer>© 2026 Oppanda · AI Auto Continue</footer>
+  </main>
+</body>
+</html>
